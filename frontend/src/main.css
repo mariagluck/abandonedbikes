@@ -1,0 +1,52 @@
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.leaflet-container {
+    min-height: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-fields {
+    background: lightblue;
+    padding: 10em;
+    min-height: 500px;
+}
+
+textarea {
+    width: 100%;
+    margin: 1.5em 0;
+    padding: 0;
+    height: 4em;
+}
+
+button {
+    padding: 3px;
+    margin: 5px;
+}
+
+.allReports {
+    width: 100%;
+    text-align: left;   
+}
+
+hr {
+    height: 2px;
+    background-color: rgb(247, 242, 242);
+    border: none;
+}
+
+.reportList {
+   height: 480px;
+   overflow: auto; 
+   
+}
+
+
+.reportList div {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    background-color: rgb(243, 178, 178);
+}
